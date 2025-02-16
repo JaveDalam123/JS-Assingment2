@@ -26,7 +26,7 @@ let num=45;
     {
         console.log("Fizz");
     }
-    if(i%3==0)
+    if(i%5==0)
     {
         console.log("Buzz");
     }
