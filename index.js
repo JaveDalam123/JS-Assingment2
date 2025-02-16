@@ -20,18 +20,21 @@ for(let r=1;r<=n;r++)
 // For multiples of 5 print “Buzz”
 // For multiples of 3 and 5 print “FizzBuzz”
 let num=45;
-   if(num%3==0 && num%5!=0)
+ for(let i=1;i<=45;i++)
+     {
+   if(i%3==0 && i%5!=0)
     {
         console.log("Fizz");
     }
-    else if(num%3!==0&& num%5==0)
+    else if(i%3!==0&& i%5==0)
     {
         console.log("Buzz");
     }
-    else if(num%3==0 && num%5==0)
+    else if(i%3==0 && i%5==0)
     {
         console.log("FizzBuzz");
     }
+     }
 
 // Q3. Calculate the sum of all the numbers in the following array
 
