@@ -20,7 +20,7 @@ for(let r=1;r<=n;r++)
 // For multiples of 5 print “Buzz”
 // For multiples of 3 and 5 print “FizzBuzz”
 let num=45;
- for(let i=1;i<=45;i++)
+ for(let i=1;i<=num;i++)
      {
    if(i%3==0 && i%5!=0)
     {
